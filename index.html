@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Music For Everyone</title>
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Google font icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- favicon -->
+        <link rel="icon" href="favicon/favicon.ico.png" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon/favicon.ico.png" type="image/x-icon">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li><span class="material-symbols-outlined">
+                notifications
+                </span></li>
+            <li><span class="material-symbols-outlined">
+                account_circle
+                </span></li>
+        </ul>
+        
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>My Favorites </h1>
+            <div class="songscontainer">
+                <div class="songItems">
+                    <img src="covers/adifferentway.jpg" alt="1">
+                    <span class="songname">DJ Snake- A Different Way</span>
+                    <span class="playsongs"><span class="timestamp">03:18 <i id='0' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/allweknow.jpeg" alt="1">
+                    <span class="songname">The Chainsmokers- All We Know</span>
+                    <span class="playsongs"><span class="timestamp">03:15 <i id='1' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/CLOSER.jpg" alt="1">
+                    <span class="songname">The Chainsmokers- Closer</span>
+                    <span class="playsongs"><span class="timestamp">04:06 <i id='2' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/attention.png" alt="1">
+                    <span class="songname">Charlie Puth- Attention</span>
+                    <span class="playsongs"><span class="timestamp">03:31 <i id='3' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/wedonttalkanymore.jpg" alt="1">
+                    <span class="songname">Charlie Puth- We Don't Talk Anymore</span>
+                    <span class="playsongs"><span class="timestamp">03:37 <i id='4' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/ILikeMeBetter.png" alt="1">
+                    <span class="songname">Lauv- I Like Me Better</span>
+                    <span class="playsongs"><span class="timestamp">03:17 <i id='5' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/katy.jpeg" alt="1">
+                    <span class="songname">Katy Perry- Harleys In Hawai</span>
+                    <span class="playsongs"><span class="timestamp">03:14 <i id='6' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/selena.jpeg" alt="1">
+                    <span class="songname">Trevor Daniel- Past Life</span>
+                    <span class="playsongs"><span class="timestamp">03:06 <i id='7' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/spider.jpeg" alt="1">
+                    <span class="songname">Swae Lee- Sunflower</span>
+                    <span class="playsongs"><span class="timestamp">02:38 <i id='8' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/nightchanges.jpeg" alt="1">
+                    <span class="songname">One Direction- Night Changes</span>
+                    <span class="playsongs"><span class="timestamp">03:46 <i id='9' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/dusktilldawn.jpeg" alt="1">
+                    <span class="songname">Zayn- Dusk Till Dawn</span>
+                    <span class="playsongs"><span class="timestamp">04:27 <i id='10' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/maroon5.jpeg" alt="1">
+                    <span class="songname">Maroon 5- Memories</span>
+                    <span class="playsongs"><span class="timestamp">03:09 <i id='11' class="far songItemPlay fa fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="timestamps-container">
+            <div class="timestamp left" id="startTimestamp">0:00</div>
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="timestamp right" id="endTimestamp">0:00</div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div id="masterSongName" class="nameofsong">
+            <img src="gif/gif.gif" width="56px" alt="" id="gif"> <span>DJ Snake- A Different Way</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8a1754b4af.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
