@@ -21,3 +21,5 @@ A simple Spotify-like music player built using HTML, CSS, and JavaScript.
 # 📌 Note
 
 This is a front-end project created for learning purposes and does not include real streaming services.
+
+jdnvjksk
