@@ -1,8 +1,8 @@
-# 🎵 Spotify App Clone
+## 🎵 Spotify App Clone
 
 A simple Spotify-like music player built using HTML, CSS, and JavaScript.
 
-# 🚀 Features
+## 🚀 Features
 - Play and pause music
 - Music player UI similar to Spotify
 - Interactive controls
